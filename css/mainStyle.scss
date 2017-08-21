@@ -3,10 +3,12 @@
 //
 //
 
-$red  : #FF3399;
-$black: #555555;
+@import "headStyle";
+
+$titleColor  : #FF3399;
+$titleBackgroundColor: #555555;
 
 .pageTitle {
-  color: $red;
-  background: $black;
+  color: $titleColor;
+  background: $titleBackgroundColor;
 }
