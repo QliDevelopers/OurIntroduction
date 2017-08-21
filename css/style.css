@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Kaushan Script', cursive;
+  src: url(https://fonts.googleapis.com/css?family=Kaushan+Script); }
+.menu {
+  color: #434343;
+  background: #B28FCE;
+  font-family: "Kaushan Script"; }
+
 .pageTitle {
   color: #FF3399;
   background: #555555; }
