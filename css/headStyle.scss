@@ -1,0 +1,21 @@
+//
+// menuColor is for the top of contents area.
+//
+
+$menuColor:           #434343; // 消炭
+$menuBackgroundColor: #B28FCE; // 薄
+// <Reference> http://nipponcolors.com/#usu
+
+$menuFont:            'Kaushan Script';
+// <Reference> http://uxmilk.jp/52837
+
+@font-face {
+  font-family: 'Kaushan Script', cursive;
+  src: url(https://fonts.googleapis.com/css?family=Kaushan+Script)
+}
+
+.menu {
+  color:       $menuColor;
+  background:  $menuBackgroundColor;
+  font-family: $menuFont;
+}
