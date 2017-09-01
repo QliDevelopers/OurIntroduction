@@ -4,11 +4,13 @@
 //
 
 @import "headStyle";
+@import "footStyle";
 
 $titleColor  : #FF3399;
 $titleBackgroundColor: #555555;
 
 .pageTitle {
-  color: $titleColor;
+  color:      $titleColor;
+  margin-top: 50px; 
   background: $titleBackgroundColor;
 }

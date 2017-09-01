@@ -1,5 +1,5 @@
 //
-// menuColor is for the top of contents area.
+// footStyle is for the bottom of contents area.
 //
 
 $menuColor:           #434343; // 消炭
@@ -14,13 +14,13 @@ $menuFont:            'Kaushan Script';
   src: url(https://fonts.googleapis.com/css?family=Kaushan+Script)
 }
 
-.menu {
+.foot {
   color:       $menuColor;
   background:  $menuBackgroundColor;
   font-family: $menuFont;
-  text-align:  right;
-  position:    fixed;
-  top:         0;
-  left:        0;
-  width:       100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
 }
