@@ -4,10 +4,29 @@
 .menu {
   color: #434343;
   background: #B28FCE;
-  font-family: "Kaushan Script"; }
+  font-family: "Kaushan Script";
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+@font-face {
+  font-family: 'Kaushan Script', cursive;
+  src: url(https://fonts.googleapis.com/css?family=Kaushan+Script); }
+.foot {
+  color: #434343;
+  background: #B28FCE;
+  font-family: "Kaushan Script";
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%; }
 
 .pageTitle {
   color: #FF3399;
+  margin-top: 50px;
   background: #555555; }
 
 /*# sourceMappingURL=style.css.map */
